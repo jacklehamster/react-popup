@@ -1,9 +1,5 @@
-// /Users/vincent/bun-template/example/node_modules/bun-template/dist/index.js
-class l {
-  static hello() {
-    return "Hello World!";
-  }
-}
+// src/index.ts
+var src_default = undefined;
 export {
-  l as Hello
+  src_default as default
 };

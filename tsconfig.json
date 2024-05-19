@@ -1,28 +1,29 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "declaration": true,
     "outDir": "./dist",
-    "rootDir": "src",
-    "baseUrl": "./",
-    "paths": { 
-      "@/*": ["src/*"]
-    },
-    "lib": ["ESNext"],
-    "module": "esnext",
-    "target": "esnext",
-    "moduleResolution": "bundler",
-    "moduleDetection": "force",
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
-    "composite": true,
+    "jsx": "react",
     "strict": true,
-    "downlevelIteration": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
-    "jsx": "react-jsx",
-    "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-    "allowJs": true,
-    "types": ["bun-types"]
+    
+    // "rootDir": "src",
+    // "baseUrl": "./",
+    // "paths": { 
+    //   "@/*": ["src/*"]
+    // },
+    "moduleResolution": "bundler",
+    // "moduleDetection": "force",
+    // "allowImportingTsExtensions": true,
+    // "noEmit": true,
+    // "composite": true,
+    // "downlevelIteration": true,
+    // "allowSyntheticDefaultImports": true,
+    // "allowJs": true,
+    // "types": ["bun-types"],
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
-  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx"],
+  "include": ["src"]
 }
