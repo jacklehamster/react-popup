@@ -2,7 +2,7 @@
   "name": "@dobuki/react-popup",
   "module": "src/index.ts",
   "description": "Reusable React Popup component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": [
     "bun",
     "bunjs",
