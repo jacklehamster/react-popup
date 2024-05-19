@@ -12,8 +12,9 @@ import { ControlContextProvider } from "./context/controls/ControlContextProvide
 import { useInitControlContext } from "./context/controls/useInitControlContext";
 import { useControlContext } from "./context/controls/ControlContextProvider";
 import { LayoutContextProvider } from "./context/layout/LayoutContextProvider";
+import { LayoutModel } from "./layout/Layout";
 
 export { Popup, PopupModel, Style, useActiveFocus, Layout, useLayoutRegistry, usePopupLayout,
   PopupControl, PopupControlListener, useInitLayoutContext, ControlContextProvider, useInitControlContext,
-  useControlContext, LayoutContextProvider
+  useControlContext, LayoutContextProvider, LayoutModel,
 }
