@@ -48,7 +48,6 @@
   "devDependencies": {
     "@dobuki/dev-dependencies": "^1.0.1",
     "css-loader": "^7.1.1",
-    "np": "latest",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.5.1",
     "webpack": "^5.91.0",
