@@ -32,7 +32,7 @@ const DOUBLE_BORDER_CSS: CSSProperties = {
   userSelect: 'none',
 };
 
-const DOUBLE_BORDER_HEIGHT_OFFSET = 5;
+const DOUBLE_BORDER_HEIGHT_OFFSET = 25;
 const DEFAULT_FONT_SIZE = 24;
 
 export function Popup({
