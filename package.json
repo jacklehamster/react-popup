@@ -1,5 +1,5 @@
 {
-  "name": "react-popup",
+  "name": "@dobuki/react-popup",
   "module": "src/index.ts",
   "description": "Reusable React Popup component",
   "version": "1.0.0",
