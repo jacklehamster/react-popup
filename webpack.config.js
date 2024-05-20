@@ -10,7 +10,7 @@ export default {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
-    library: 'myReactLibrary',
+    library: 'popupReactLibrary',
     libraryTarget: 'umd',
     globalObject: 'this',
   },
@@ -29,19 +29,5 @@ export default {
         use: ['style-loader', 'css-loader'],
       },
     ],
-  },
-  externals: {
-    react: {
-      commonjs: 'react',
-      commonjs2: 'react',
-      amd: 'react',
-      root: 'React',
-    },
-    'react-dom': {
-      commonjs: 'react-dom',
-      commonjs2: 'react-dom',
-      amd: 'react-dom',
-      root: 'ReactDOM',
-    },
   },
 };

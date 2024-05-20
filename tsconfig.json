@@ -9,21 +9,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    
-    // "rootDir": "src",
-    // "baseUrl": "./",
-    // "paths": { 
-    //   "@/*": ["src/*"]
-    // },
     "moduleResolution": "bundler",
-    // "moduleDetection": "force",
-    // "allowImportingTsExtensions": true,
-    // "noEmit": true,
-    // "composite": true,
-    // "downlevelIteration": true,
-    // "allowSyntheticDefaultImports": true,
-    // "allowJs": true,
-    // "types": ["bun-types"],
   },
   "include": ["src"]
 }
